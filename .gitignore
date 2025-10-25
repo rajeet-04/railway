@@ -1,0 +1,131 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+Icon?
+._*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.lock-wscript
+coverage/
+.nyc_output/
+dist/
+build/
+out/
+.next/
+.cache/
+parcel-cache/
+.vite/
+.esbuild/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment
+# .env
+# .env.local
+# .env.*.local
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# JetBrains
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+# .env/
+.venv/
+pip-wheel-metadata/
+build/
+dist/
+
+# Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+vendor/bundle/
+log/
+tmp/
+
+# Go
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+vendor/
+
+# Rust
+/target/
+
+# C/C++
+*.o
+*.obj
+*.elf
+*.exe
+*.out
+
+# Temporary files
+*.swp
+*~ 
+*.tmp
+*.temp
+tmp/
+temp/
+
+# CI / deployment
+# .env.production
+.railway/
+.deploy/
+.deployments/
+
+# Secrets
+*.pem
+*.key
+*.crt
+credentials/
+secrets.yml
+
+# Misc
+*.log
+*.csv
+*.sqlite
+# *.db
+.Dockerfile.swp
+
+# Ignore generated lockfiles from some package managers if you prefer (uncomment to ignore)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml

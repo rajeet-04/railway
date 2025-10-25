@@ -1,0 +1,17 @@
+# Track large binary and data files with Git LFS
+# SQLite DB (local database file)
+database/*.db filter=lfs diff=lfs merge=lfs -text
+# Large JSON data files (if they grow large)
+data/*.json filter=lfs diff=lfs merge=lfs -text
+data/*.geojson filter=lfs diff=lfs merge=lfs -text
+# Static assets (images, large text art, archives)
+public/assets/* filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.tar.gz filter=lfs diff=lfs merge=lfs -text
+# Optionally track any other large artifacts
+# *.bin filter=lfs diff=lfs merge=lfs -text
+backend/database/railway.db filter=lfs diff=lfs merge=lfs -text
