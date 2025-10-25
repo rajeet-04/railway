@@ -21,7 +21,7 @@ try:
 except Exception:
     pass
 
-DEFAULT_DB_PATH = os.environ.get("DB_PATH", "database/railway.db")
+DEFAULT_DB_PATH = os.environ.get("DB_PATH", "backend/database/railway.db")
 STATIONS_JSON = "data/stations.json"
 TRAINS_JSON = "data/trains.json"
 SCHEDULES_JSON = "data/schedules.json"

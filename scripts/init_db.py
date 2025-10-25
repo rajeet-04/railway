@@ -30,8 +30,8 @@ try:
 except Exception:
     pass
 
-DEFAULT_DB_PATH = os.environ.get("DB_PATH", "database/railway.db")
-DEFAULT_SCHEMA_PATH = os.environ.get("SCHEMA_PATH", "database/schema.sql")
+DEFAULT_DB_PATH = os.environ.get("DB_PATH", "backend/database/railway.db")
+DEFAULT_SCHEMA_PATH = os.environ.get("SCHEMA_PATH", "backend/database/schema.sql")
 
 
 def run_schema(db_path: str, schema_path: str):
